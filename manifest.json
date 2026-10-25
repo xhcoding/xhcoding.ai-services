@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "xhcoding.ai-services",
+  "name": "AI Services",
+  "version": "1.4.0",
+  "author": "xhcoding",
+  "description": "Exclusive switcher for ComfyUI, a local LLM and Strata, plus GPU power-cap and CPU PL1/PL2 limit switchers",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "AI Services",
+    "description": "Switch between ComfyUI, the local LLM and Strata (only one at a time), and switch the GPU power cap and CPU package limits",
+    "category": "AI",
+    "allowMultiple": false
+  }
+}
